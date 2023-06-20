@@ -67,7 +67,7 @@ while True:
     if selection == "1":
         soup = get_edison()
         dt = datetime.now()
-        day = days[dt.isoweekday()]
+        day = days[dt.isoweekday()-1]
         day_element = soup.find('div', id=day)
         menu_items = day_element.find_all('tr')
         print_day(menu_items, day)
