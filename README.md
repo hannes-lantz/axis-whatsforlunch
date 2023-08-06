@@ -1,4 +1,4 @@
 # axis-whatsforlunch
 Då jag har fått jobb på Axis ville jag göra ett program som visar relevanta lunch-menyer
 
-TODO - Lägg till Grenden och H0
+TODO - Lägg till H0
